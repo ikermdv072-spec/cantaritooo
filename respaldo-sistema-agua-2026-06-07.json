@@ -1,0 +1,156 @@
+{
+  "config": {
+    "initialBottles": 349,
+    "initialCaps": 5500,
+    "initialLabels": 5700,
+    "initialSeals": 11000,
+    "priceDriver": 6,
+    "priceDirect7": 7,
+    "priceDirect8": 8,
+    "physicalBottleSalePrice": 35,
+    "costCap": 0.37,
+    "costLabel": 0.4,
+    "costSeal": 0.15,
+    "gasolineLiterCost": 6.96,
+    "dieselLiterCost": 9.8,
+    "commission": 0.3,
+    "productionEmployee1Commission": 0.15,
+    "productionEmployee2Commission": 0.15,
+    "monthlyDepreciation": 1000,
+    "lostCharge": 30,
+    "lowStock": 500,
+    "drivers": [
+      "Etenier",
+      "Sebastian",
+      "Freddy",
+      "Chofer random"
+    ]
+  },
+  "daily": [
+    {
+      "id": "1780790964316-b7af116abea678",
+      "date": "2026-06-05",
+      "produced": 0,
+      "capsDelivered": 0,
+      "labelsDelivered": 0,
+      "sealsDelivered": 0,
+      "capsUsed": 0,
+      "labelsUsed": 0,
+      "sealsUsed": 0,
+      "direct7": 0,
+      "direct8": 0,
+      "physicalBottlesSold": 1,
+      "cash": 0,
+      "qr": 0,
+      "broken": 0,
+      "brokenDriver": "",
+      "lost": 0,
+      "lostDriver": "",
+      "gasLiters": 0,
+      "gasByDriver": {
+        "Etenier": 0,
+        "Sebastian": 0,
+        "Freddy": 0,
+        "Chofer random": 0
+      },
+      "gasCost": 0,
+      "dieselLiters": 0,
+      "dieselByDriver": {
+        "Etenier": 0,
+        "Sebastian": 0,
+        "Freddy": 0,
+        "Chofer random": 0
+      },
+      "dieselCost": 0,
+      "notes": "",
+      "drivers": {
+        "Etenier": 0,
+        "Sebastian": 0,
+        "Freddy": 0,
+        "Chofer random": 0
+      }
+    },
+    {
+      "id": "1780790120391-b490ec3555624",
+      "date": "2026-06-05",
+      "produced": 100,
+      "capsDelivered": 100,
+      "labelsDelivered": 100,
+      "sealsDelivered": 100,
+      "capsUsed": 100,
+      "labelsUsed": 30,
+      "sealsUsed": 100,
+      "direct7": 0,
+      "direct8": 40,
+      "physicalBottlesSold": 0,
+      "cash": 0,
+      "qr": 0,
+      "broken": 3,
+      "brokenDriver": "Etenier",
+      "lost": 0,
+      "lostDriver": "",
+      "gasLiters": 12,
+      "gasByDriver": {
+        "Etenier": 4,
+        "Sebastian": 4,
+        "Freddy": 4,
+        "Chofer random": 0
+      },
+      "gasCost": 0,
+      "dieselLiters": 0,
+      "dieselByDriver": {
+        "Etenier": 0,
+        "Sebastian": 0,
+        "Freddy": 0,
+        "Chofer random": 0
+      },
+      "dieselCost": 0,
+      "notes": "",
+      "drivers": {
+        "Etenier": 20,
+        "Sebastian": 20,
+        "Freddy": 20,
+        "Chofer random": 0
+      }
+    }
+  ],
+  "purchases": [],
+  "expenses": [
+    {
+      "id": "1780788112155-20803e6859fdf",
+      "date": "2026-06-06",
+      "category": "Mantenimiento",
+      "amount": 100,
+      "type": "Diario",
+      "note": "mecanico"
+    }
+  ],
+  "debtPayments": [
+    {
+      "id": "1780790497834-331d95f40f9158",
+      "date": "2026-06-06",
+      "driver": "Etenier",
+      "amount": 30,
+      "note": ""
+    }
+  ],
+  "liabilityDebts": [
+    {
+      "id": "1780790424425-948d2ddff3d61",
+      "date": "2026-06-06",
+      "name": "moto",
+      "amount": 1000,
+      "note": "wkcfke"
+    }
+  ],
+  "liabilityPayments": [
+    {
+      "id": "1780790457450-cda2ddb19a5398",
+      "date": "2026-06-06",
+      "debtId": "1780790424425-948d2ddff3d61",
+      "amount": 200,
+      "note": ""
+    }
+  ],
+  "customers": []
+}
